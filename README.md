@@ -14,6 +14,16 @@ This project demonstrates a computational analysis of RNA-Seq data from human ma
 
 - Biological interpretation of gene expression patterns
 
+## Software and Dependencies
+
+This analysis was performed in R (v4.5.1) using the following packages:
+
+- DESeq2
+- tidyverse (dplyr, readr, ggplot2)
+- pheatmap
+- EnhancedVolcano
+- apeglm
+
 ## Data
 
 The dataset was obtained from [GEO: GSE287732](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE287732), containing 6 samples:
