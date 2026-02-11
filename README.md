@@ -39,3 +39,20 @@ The dataset was obtained from [GEO: GSE287732](https://www.ncbi.nlm.nih.gov/geo/
    - PCA plot: Variance stabilized counts were used to analyze sample clustering
    - Volcano plot: Highlighted significantly up-regulated and down-regulated genes
    - Heatmaps: The top differentially expressed genes showed consistent expression patterns across replicates.
+
+## Results
+
+Figures can be located under results/figures.
+
+#### PCA Plot
+The PCA plot showed a clear separation between the control and the POU1F1-overexpressing samples along PC1 (54% variance) and PC2 (29% variance), indicating that POU1F1 leads to clear changes in gene expression.
+
+#### Volcano Plot
+The volcano plot identifies 4 significantly differentially expressed genes. Three of these genes were upregulated and one was downregulated indicating potential targets for further investigation.
+
+#### Heatmaps
+A heatmap of the 4 genes differentially expressed in the volcano plot were plotted on a heatmap to visualize their clustering between the control and the POU1F1-overexpressing smaples. A separate hehatmap with the top 10 genes was also created and it showed a similar clustering with 3 genes showing downregulation and 7 showing upregulation. This confirms the results from the PCA and Volcano plots and visually demonstrates the differences in expression.
+
+## Conclusion
+
+This project deonstrates a coplete RNA-Seq pipeline from raw counts to visualization. POU1F1 overexpression induces a clear transcriptional signature in HMEC cells as showen by the PCA seaparation, differentially expressed genes, and heatmap patterns. This project highlights skills in computational genomics, statistical analysis, and data visualization suitable for both academic and industry applications.
